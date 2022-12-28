@@ -13,21 +13,15 @@ module.exports = {
           sans: ["Poppins", "sans-serif"],
         },
         spacing: {
-          desktop: '100px',
+          desktop: '60px',
           mobile: '10px',
         },
         screens: {
-          xl: { max: "px" }, // desktop
-          // => @media (max-width: 1279px) { ... }
-    
-          lg: { max: "1023px" }, // larger ipad
-          // => @media (max-width: 1023px) { ... }
-    
-          md: { max: "767px" }, // ipad
-          // => @media (max-width: 767px) { ... }
-    
-          sm: { max: "639px" }, // mobile
-          // => @media (max-width: 639px) { ... }
+          xxl:{ max: "1536px" }, 
+          xl: { max: "1280px" }, 
+          lg: { max: "1023px" }, 
+          md: { max: "767px" },
+          sm: { max: "639px" },
         },
         fontSize: {
           base: '14px',

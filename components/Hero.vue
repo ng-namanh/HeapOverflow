@@ -1,26 +1,72 @@
 <template >
-    <section class=" pt-16 flex gap-24 items-center justify-between xl:gap-96" >
-        <div class=" mt-12">
-        <h1 class=" text-white font-bold text-md leading-[80px] relative z-40 animate-slideDown">
+    <section class=" pt-16 
+                     flex 
+                     gap-24 
+                     items-center 
+                     justify-between
+                     sm:flex-col-reverse" >
+        <div class=" mt-12
+                    sm:mt-[18rem]
+                    sm:text-center">
+        <h1 class=" text-white 
+                      font-bold 
+                      text-md sm:text-[20px]
+                      leading-[80px] sm:leading-[28px] 
+                      relative 
+                      z-40 
+                      animate-slideDown">
 					Take your best <br />
 					Exciting Problem
 				</h1>
-				<p class="mt-5 text-white font-light text-xs">
-					Heap Overflow is the best Online Judge for Technical Student and <br>
-                    Devloper to improve technical knowlege by solving programing <br>
+				<p class="mt-5 
+                        text-gray-400
+                          font-light 
+                          text-xs
+                          leading-[24px]
+                           ">
+					Heap Overflow is the best Online Judge for Technical Student and <br class="sm:hidden">
+                    Devloper to improve technical knowlege by solving programing <br class="sm:hidden">
                     problems and participanting contest 
 				</p>
                 <div class="mt-12">
-					<NuxtLink
-						class=" text-base py-3 px-8 rounded-2xl font-medium bg-blue-700 text-white transition-all border border-transparent hover:bg-white/0 hover:border-black hover:text-black"
+					<button
+						class=" text-base 
+                        py-3 
+                        px-8 
+                        sm:px-16
+                        sm:py-4
+                        rounded-2xl 
+                        font-medium
+                         bg-[#1E50FF]
+                          text-white 
+                          transition-all 
+                          border 
+                          border-transparent 
+                          hover:bg-white
+                         hover:border-black
+                         hover:text-black"
 						to="#"
-						>Get Started</NuxtLink
-					>
+						>Get Started</button>
 				</div>    
             </div>         
                 
-                <svg width="440" height="449" viewBox="0 0 440 449" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class=" mt-[-22px] h-22 w-29 ">
-                <rect width="440" height="449" fill="url(#pattern0)"/>
+                <svg class=" sm:absolute 
+                             sm:top-[152px] 
+                             sm:left-[72px] 
+                             flex 
+                             justify-center 
+                             items-center 
+                             w-[440px] 
+                             h-[449px] 
+                             mt-[-22px] 
+                             h-22 
+                             w-29 
+                             sm:h-[324px] 
+                             sm:w-[321px]" viewBox="0 0 440 440" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+                <rect class=" w-[450px] 
+                              h-[450px] 
+                              sm:w-[324px] 
+                              sm:h-[321px]" fill="url(#pattern0)"/>
                 <defs>
                 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
                 <use xlink:href="#image0_609_30" transform="translate(-0.121813 -0.155556) scale(0.00283286 0.00277778)"/>
