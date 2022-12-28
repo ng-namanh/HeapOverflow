@@ -2,7 +2,7 @@
     <section class=" mt-desktop">
         <h1 class=" text-white
                       text-center 
-                      text-4xl
+                      text-[32px]
                       font-semibold">Powered By</h1>
         <div class="flex gap-6 mt-desktop items-center justify-evenly">
             
