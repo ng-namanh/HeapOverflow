@@ -12,7 +12,7 @@
         <h1 class="text-white">We Create Learning <br>
             Environtment For <br>
             Developer</h1>
-        <img class=" w-[350px] h-[350px]" src="../Public/Image/image 3.png" alt="">
+        <img class=" w-[350px] h-[350px]" src="../Public/Image/image3.png" alt="">
         
     </div>
 </template>
