@@ -1,5 +1,5 @@
 <template >
-    <div class=" mt-[60px]
+    <div class=" mt-[50px]
                  flex justify-between items-center
                  gap-[100px]
                  text-white 

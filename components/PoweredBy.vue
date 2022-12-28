@@ -4,7 +4,7 @@
                       text-center 
                       text-4xl
                       font-semibold">Powered By</h1>
-        <div class="flex gap-6">
+        <div class="flex gap-6 mt-desktop items-center justify-evenly">
             
             <svg width="123" height="40" viewBox="0 0 123 40" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_606_43)">
