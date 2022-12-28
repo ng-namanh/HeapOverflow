@@ -1,7 +1,7 @@
 <template >
-    <div class=" mt-[50px]
-                 flex justify-between items-center
-                 gap-[100px]
+    <div class=" mt-[50px] sm:mt-[80px]
+                 flex justify-between items-center sm:flex-col
+                 gap-[100px] sm:gap-mobile
                  text-white 
                 font-bold 
                 text-[40px] sm:text-[20px]
@@ -9,10 +9,12 @@
                 relative 
                 z-40 
                 animate-slideDown">
-        <h1 class="text-white">We Create Learning <br>
-            Environtment For <br>
+        <h1 class="text-white text-center">We Create Learning <br class=" sm:hidden">
+            Environtment For <br class=" sm:hidden">
             Developer</h1>
-        <img class=" w-[350px] h-[350px]" src="../Public/Image/image3.png" alt="">
+        <img class=" w-[350px] h-[350px]
+                    sm:w-[250px] sm:h-[250px]
+                    sm:z-[-1] sm:mt-[-30px]" src="../Public/Image/image3.png" alt="">
         
     </div>
 </template>
