@@ -36,9 +36,9 @@
             </defs>
             </svg>
 
-            <img src="../Public/Image/image 1.png" alt="">
+            <img src="../Public/Image/image1.png" alt="">
 
-            <img src="../Public/Image/image 2.png" alt="">
+            <img src="../Public/Image/image2.png" alt="">
 
         </div>
     </section>
