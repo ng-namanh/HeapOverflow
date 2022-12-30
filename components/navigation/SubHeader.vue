@@ -1,7 +1,4 @@
-<template>
-
-    
-       <div class="hidden sm:absolute sm:top-0 sm:-right-full sm:h-screen sm:w-screen sm:bg-[#0F0B33]  overflow-hidden">            
+<te<div class="hidden sm:absolute sm:top-0 sm:-right-full sm:h-screen sm:w-screen sm:bg-[#0F0B33]  overflow-hidden">            
                     <ul class="flex flex-col items-center w-full text-base cursor-pointer pt-10">
                                 <li class=" active:text-white hover:text-white py-10 px-8 w-full text-[20px] text-gray-500"
                             v-for="(navLink, i) in navLinks" 
@@ -11,7 +8,10 @@
                             </nuxt-link>
                                 </li>
                     </ul>
-        </div>
+        </div>mplate>
+
+        
+       
        
        <ul class="  sm:hidden 
                     flex 

@@ -1,6 +1,6 @@
 <template> 
     <div>
-        <Header />
+        <Navigation />
         <Hero />
         <PoweredBy />
         <LearningCard />
@@ -9,5 +9,6 @@
 </template>
 
 <script>
-    export default {};
+    export default {
+    };
 </script>
