@@ -5,10 +5,15 @@
         <PoweredBy />
         <LearningCard />
         <Providing />
+        <Step />
+        <SliderPartProductTeam />
+        <SliderPartSponsors />
+        <Ready />
+        <Footer />
+       
+        
     </div>
 </template>
 
 <script>
-    export default {
-    };
 </script>
