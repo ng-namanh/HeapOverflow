@@ -27,7 +27,7 @@
         </button>
       </div>
     </div>
-    <div class="flex justify-between">
+    <div class="flex justify-between ">
         <img class="w-[100px] h-[100px]" src="~~/Public/Image/image11.png" alt="">
         <img class="w-[100px] h-[100px]" src="~~/Public/Image/image16.png" alt="">
       </div>
