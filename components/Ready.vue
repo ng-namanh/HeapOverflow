@@ -6,8 +6,8 @@
       <img class="w-[120px] h-[120px] " src="../Public/Image/image13.png" alt="" />
     </div>
     <div class="flex relative">
-      <img class="absolute top-[7rem] left-[2rem]" src="~~/Public/Image/image14.png" alt="">
-      <img class="absolute top-[7rem] left-[52rem]" src="~~/Public/Image/image17.png" alt="">
+      <img class="absolute top-[7rem] left-[5%]" src="~~/Public/Image/image14.png" alt="">
+      <img class="absolute top-[7rem] left-[85%]" src="~~/Public/Image/image17.png" alt="">
     </div>
     <div class="mt-[58px] flex flex-col items-center justify-center">
       <h1 class="text-white text-[54px] leading-[80px] font-bold text-center">
