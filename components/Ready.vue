@@ -1,21 +1,13 @@
 <template>
   <section class="mt-[80px]">
-    <div class="flex relative">
-      <img class="absolute top-1 left-1" src="../Public/Image/image10.png" alt="" />
-      <img class="absolute top-[-0.75rem] left-[28.5rem]" src="../Public/Image/image15.png" alt="" />
-      <img src="../Public/Image/image13.png" alt="" />
+    <div class="flex relative justify-between">
+      <img class="w-[100px] h-[100px] mt-[1rem]" src="../Public/Image/image10.png" alt="" />
+      <img class="w-[150px] h-[150px] " src="../Public/Image/image15.png" alt="" />
+      <img class="w-[120px] h-[120px] " src="../Public/Image/image13.png" alt="" />
     </div>
-    <div>
-      <img
-        class="absolute top-[2200px] left-48"
-        src="~~/Public/Image/image 14 (1).png"
-        alt=""
-      />
-      <img
-        class="absolute top-[2200px] left-[950px] w-[70px] h-[70px]"
-        src="~~/Public/Image/image 17 (1).png"
-        alt=""
-      />
+    <div class="flex relative">
+      <img class="absolute top-[7rem] left-[2rem]" src="~~/Public/Image/image14.png" alt="">
+      <img class="absolute top-[7rem] left-[52rem]" src="~~/Public/Image/image17.png" alt="">
     </div>
     <div class="mt-[58px] flex flex-col items-center justify-center">
       <h1 class="text-white text-[54px] leading-[80px] font-bold text-center">
@@ -35,11 +27,10 @@
         </button>
       </div>
     </div>
-
     <div class="flex justify-between">
-      <img src="" alt="" />
-      <img src="" alt="" />
-    </div>
+        <img class="w-[100px] h-[100px]" src="~~/Public/Image/image11.png" alt="">
+        <img class="w-[100px] h-[100px]" src="~~/Public/Image/image16.png" alt="">
+      </div>
   </section>
 </template>
 <script>
