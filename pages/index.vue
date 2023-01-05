@@ -5,6 +5,7 @@
         <PoweredBy />
         <LearningCard />
         <Providing />
+        <Step />
         <Ready />
         <Footer />
        
