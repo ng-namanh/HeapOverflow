@@ -6,6 +6,8 @@
         <LearningCard />
         <Providing />
         <Step />
+        <SliderPartProductTeam />
+        <SliderPartSponsors />
         <Ready />
         <Footer />
        
@@ -14,4 +16,6 @@
 </template>
 
 <script>
+import Sponsors from '~~/components/SliderPart/Sponsors.vue';
+
 </script>
