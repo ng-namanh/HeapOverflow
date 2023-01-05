@@ -9,12 +9,19 @@
 
   <swiper
     :slidesPerView="1"
-    :spaceBetween="30"
+    :spaceBetween="0"
+    :loopPreventsSlide="true"
+    :loop="true"
+    :navigation="true"
     :pagination="{
       clickable: true,
     }"
+    :autoplay="{
+      delay: 2000,
+      disableOnInteraction: false,
+    }"
     :modules="modules"
-    class="mySwiper mySwiper h-[40vh] w-[50%] flex items-center justify-center"
+    class="mySwiper mySwiper h-[40vh] w-[70%] flex items-center justify-center"
   >
   <swiper-slide class=" w-48 flex flex-col items-center justify-center mt-[-30px]">
       <img class=" w-[250px] " src="./slideImg/image21.png" alt="">
@@ -30,16 +37,12 @@
     </swiper-slide>
   </swiper>
 </template>
-<script lang="ts">
-// Import Swiper Vue.js components
+<script>
 import { Swiper, SwiperSlide } from "swiper/vue";
-
-// Import Swiper styles
-
-// import required modules
-import { Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
+import "swiper/css/navigation";
+import { Autoplay, Pagination, Navigation } from "swiper";
 export default {
   components: {
     Swiper,
@@ -47,7 +50,7 @@ export default {
   },
   setup() {
     return {
-      modules: [Pagination],
+      modules: [Autoplay, Pagination, Navigation],
     };
   },
 };

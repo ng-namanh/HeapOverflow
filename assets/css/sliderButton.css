@@ -21,3 +21,7 @@
   border-radius: 20px;
   transition :width 0.5s ;
 }
+.swiper-button-next, .swiper-button-prev {
+  color: white;
+  z-index: 1;
+}
