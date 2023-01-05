@@ -10,11 +10,12 @@
     :loop="true"
     :navigation="true"
     :breakpoints="swiperOptions.breakpoints"
+    :speed="2500"
     :pagination="{
       clickable: true,
     }"
     :autoplay="{
-      delay: 2000,
+      delay: 3000,
       disableOnInteraction: false,
     }"
     :modules="modules"

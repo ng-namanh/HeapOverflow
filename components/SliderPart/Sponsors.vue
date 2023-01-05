@@ -12,12 +12,13 @@
     :spaceBetween="0"
     :loopPreventsSlide="true"
     :loop="true"
+    :speed="2500"
     :navigation="true"
     :pagination="{
       clickable: true,
     }"
     :autoplay="{
-      delay: 2000,
+      delay: 3000,
       disableOnInteraction: false,
     }"
     :modules="modules"
