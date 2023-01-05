@@ -12,7 +12,6 @@
     }"
     :modules="modules"
     class="mySwiper h-[62vh] w-[50%] flex flex-col items-center justify-center my-16"
-    data-swiper-autoplay="2000"
   >
     <swiper-slide class=" w-48 flex flex-col gap-6 items-center justify-center">
       <img class=" max-w-[80%] border-solid border-2 border-blue-500 rounded-full" src="./slideImg/image19.png" alt="">
@@ -64,13 +63,7 @@ export default {
     SwiperSlide,
   },
   setup() {
-    const swiper = new Swiper('.swiper', {
-    autoplay: {
-       delay: 5000,
-  },
-});
     return {
-      swiper,
       modules: [Pagination],
     };
   },
