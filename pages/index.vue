@@ -5,9 +5,6 @@
         <PoweredBy />
         <LearningCard />
         <Providing />
-        <Step />
-        <SliderPartProductTeam />
-        <SliderPartSponsors />
         <Ready />
         <Footer />
        

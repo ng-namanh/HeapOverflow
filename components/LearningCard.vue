@@ -2,8 +2,8 @@
   <div
     class="mt-[50px] sm:mt-[80px] flex justify-between items-center sm:flex-col gap-[100px] sm:gap-mobile text-white font-bold text-[40px] sm:text-[20px] leading-[50px] sm:leading-[28px] relative z-40 animate-slideDown"
   >
-    <h1 class="text-white text-center">
-      We Create Learning <br class="sm:hidden" />
+    <h1 class="text-white heading-bold-h3 sm:text-center sm:text-[16px] sm:leading-6">
+      We Create Learning <br />
       Environtment For <br class="sm:hidden" />
       Developer
     </h1>
@@ -15,4 +15,4 @@
   </div>
 </template>
 <script></script>
-<style></style>
+<style src="@/assets/css/typography.css"></style>

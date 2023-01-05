@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.paragraphy-semibold-body-16px {
+    @apply font-semibold text-base leading-8 
+}
+.paragraphy-regular-body-16px {
+    @apply font-normal text-base leading-8 text-gray-500
+}
+.heading-bold-h2 {
+    @apply font-bold text-lg leading-[80px]
+}
+.heading-bold-h3 {
+    @apply font-bold text-md leading-[63.98px] 
+}
+.heading-medium-h4 {
+    @apply font-medium text-[32px] leading-[48px]
+}

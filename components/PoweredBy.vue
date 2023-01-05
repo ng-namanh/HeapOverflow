@@ -1,10 +1,8 @@
 <template>
     <section class=" mt-desktop">
         <h1 class=" text-white
-                      text-center 
-                      text-[32px]
-                      font-semibold
-                      sm:text-[20px]
+                      heading-bold-h3
+                      sm:text-[20px] text-center
                      ">Powered By</h1>
         <div class="flex gap-6 mt-desktop items-center justify-evenly
                     sm:grid 
@@ -27,6 +25,6 @@
 <script>
 
 </script>
-<style>
+<style src="@/assets/css/typography.css">
     
 </style>
