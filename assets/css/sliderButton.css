@@ -3,8 +3,8 @@
 @tailwind components;
 @tailwind utilities;
 .swiper-pagination-bullet {
-  width: 8px;
-  height: 8px;
+  width: 6px;
+  height: 6px;
   text-align: center;
   line-height: 20px;
   font-size: 12px;
@@ -15,8 +15,8 @@
 }
 
 .swiper-pagination-bullet-active {
-  width: 16px;
-  height: 8px;
+  width: 14px;
+  height: 6px;
   background: white;
   border-radius: 20px;
   transition :width 0.5s ;
@@ -24,4 +24,19 @@
 .swiper-button-next, .swiper-button-prev {
   color: white;
   z-index: 1;
+ 
+  
 }
+.swiper-button-prev{
+  transform:translateX(50px);
+}
+.swiper-button-next{
+  transform:translateX(-50px);
+}
+
+@media screen and (max-width: 639px )  {
+  .swiper-button-next, .swiper-button-prev {
+    visibility: hidden;
+  }
+}
+
