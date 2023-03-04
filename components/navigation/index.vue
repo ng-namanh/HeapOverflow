@@ -79,7 +79,6 @@ const links = [
 const showMobileNav = ref(false);
 function Indicator(id) {
     this.selectedIdex = id
-    console.log(this.selectedIdex);
 } 
 function showMobileMenu() {
   showMobileNav.value = !showMobileNav.value;

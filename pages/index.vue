@@ -1,5 +1,5 @@
 <template> 
-    <div>
+    <div class=" max-w-[90rem] flex flex-col justify-center m-auto">
         <Navigation />
         <Hero />
         <PoweredBy />
@@ -10,12 +10,8 @@
         <SliderPartSponsors />
         <Ready />
         <Footer />
-       
-        
     </div>
 </template>
 
 <script>
-import Sponsors from '~~/components/SliderPart/Sponsors.vue';
-
 </script>
