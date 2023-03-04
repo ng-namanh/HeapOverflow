@@ -1,11 +1,7 @@
 <template>
-  <section
-    class="pt-16 flex gap-24 items-center justify-between sm:flex-col-reverse"
-  >
+  <section class="pt-16 flex items-center justify-evenly gap-28 sm:flex-col-reverse">
     <div class="mt-12 sm:mt-[18rem] sm:text-center">
-      <h1
-        class="text-white sm:text-[20px] heading-bold-h2 sm:leading-[28px] relative"
-      >
+      <h1 class="text-white sm:text-[20px] heading-bold-h2 sm:leading-[28px] relative">
         Take your best <br />
         Exciting Problem
       </h1>
@@ -17,17 +13,15 @@
         problems and participanting contest
       </p>
       <div class="mt-12">
-      <!--   <button
+        <!--   <button
           class="text-base py-3 px-8 sm:px-16 sm:py-4 rounded-2xl font-medium bg-[#1E50FF] text-white transition-all border border-transparent hover:bg-white hover:border-black hover:text-black"
           to="#"
         >
           Get Started
         </button> -->
-      <ButtonTemplate>
-        <template #Hero>
-            Get Started
-        </template>
-      </ButtonTemplate>
+        <ButtonTemplate>
+          <template #Hero> Get Started </template>
+        </ButtonTemplate>
       </div>
     </div>
 
@@ -41,6 +35,4 @@
 <script>
 export default {};
 </script>
-<style src="@/assets/css/typography.css">
-
-</style>
+<style src="@/assets/css/typography.css"></style>
