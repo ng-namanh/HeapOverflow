@@ -1,5 +1,5 @@
 <template>
-  <h1 class="text-center text-white font-semibold text-[32px] sm:text-[20px] sm:heading-bold-h6">
+  <h1 class="text-center text-white font-semibold text-[32px] sm:text-[20px] sm:heading-bold-h6" id="OurTeam">
     Meet Our Product Team
   </h1>
   <swiper
@@ -17,7 +17,7 @@
         delay: 1800,
         disableOnInteraction: false,
       }"
-    class="mySwiper h-[62vh] sm:h-[54vh] w-[70%] sm:w-full flex flex-col items-center justify-center my-16 z-10"
+    class="mySwiper h-[62vh] sm:h-[54vh] w-[70%] sm:w-full flex flex-col items-center justify-center my-16 z-10 max-h-[27rem]"
   >
     <!--  Group 1 -->
     <swiper-slide

@@ -43,17 +43,17 @@
           <div
             class="paragraphy-regular-body-16px sm:paragraphy-regular-footer-12px mt-4 sm:mt-2"
           >
-            <NuxtLink to="/">Our team</NuxtLink>
+            <a href="#OurTeam" >Our team</a>
           </div>
           <div
             class="paragraphy-regular-body-16px sm:paragraphy-regular-footer-12px mt-4 sm:mt-2"
           >
-            <NuxtLink to="/">About us</NuxtLink>
+            <a href="#AboutUs" >About us</a>
           </div>
           <div
             class="paragraphy-regular-body-16px sm:paragraphy-regular-footer-12px mt-4 sm:mt-2"
           >
-            <NuxtLink to="/">Contact us</NuxtLink>
+            <a href="#ContactUs" >Contact us</a>
           </div>
         </div>
       </div>

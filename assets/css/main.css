@@ -6,6 +6,7 @@
 * { 
     background: #0F0B33;
     max-width: 100%;
+    scroll-behavior: smooth;
 }
 body {
     padding: 20px 100px 20px 100px;   

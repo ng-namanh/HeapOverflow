@@ -27,8 +27,9 @@
         @click ="Indicator(link.id)"  
       >
         <a
-          :class="link.id === selectedIdex ? ['opacity-100'] : null"
-          class="paragraphy-semibold-body-16px text-white opacity-30 transition-all duration-300"
+          :class="link.id === selectedIdex ? ['opacity-90'] :   null"
+          :href="link.href"
+          class="paragraphy-semibold-body-16px opacity-30 transition-all duration-300"
         >
           {{ link.text }}
         </a>
@@ -61,19 +62,23 @@ const heap = ref("Heap Overflow");
 const links = [
   {
     id : 1,
-    text : "Home"
+    text : "Home",
+    href : "#Home"
   },
   {
     id : 2,
-    text : "Services"
+    text : "Services",
+    href : "#Services"
   },
   {
     id : 3,
-    text : "Our Team"
+    text : "Our Team",
+    href : "#OurTeam"
   },
   {
     id : 4,
-    text : "About Us"
+    text : "About Us",
+    href : "#AboutUs"
   },
 ]
 const showMobileNav = ref(false);

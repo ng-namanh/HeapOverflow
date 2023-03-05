@@ -22,7 +22,7 @@
       disableOnInteraction: false,
     }"
     :modules="modules"
-    class="mySwiper mySwiper h-[40vh] w-[70%] flex items-center justify-center"
+    class="mySwiper mySwiper h-[40vh] w-[70%] flex items-center justify-center max-h-[27rem]"
   >
   <swiper-slide class=" w-48 flex flex-col items-center justify-center mt-[-30px]">
       <img class=" w-[250px] " src="./slideImg/image21.png" alt="">
