@@ -27,14 +27,14 @@
         @click ="Indicator(link.id)"  
       >
         <a
-          :class="link.id === selectedIdex ? ['opacity-90'] :   null"
+          :class="link.id === selectedIdex ? ['', 'visited:text-white'] :   null"
           :href="link.href"
-          class="paragraphy-semibold-body-16px opacity-30 transition-all duration-300"
+          class="hover:text-white paragraphy-semibold-body-16px text-gray-500 transition-all duration-300"
         >
           {{ link.text }}
         </a>
         <div
-        v-if="link.id === selectedIdex"
+        v-show="link.id === selectedIdex"
           class="h-0.5 mt-0.5 bg-blue-700 group-hover:block w-[80%] transition-all duration-300"
         ></div>
       </li>
