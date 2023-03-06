@@ -29,9 +29,11 @@
 }
 .swiper-button-prev{
   transform:translateX(50px);
+  background: transparent;
 }
 .swiper-button-next{
   transform:translateX(-50px);
+  background: transparent;
 }
 
 @media screen and (max-width: 639px )  {

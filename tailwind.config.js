@@ -19,8 +19,8 @@ module.exports = {
         screens: {
           xxl:{ max: "1536px" }, 
           xl: { max: "1280px" }, 
-          lg: { max: "1023px" }, // 
-          md: { max: "767px" },
+          lg: { max: "1023px" },
+          '@md': { min: '640px', max: '913px' },
           sm: { max: "639px" },
         },
         fontSize: {

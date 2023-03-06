@@ -1,8 +1,12 @@
 <template>
-  <section class="pt-16 flex items-center justify-evenly gap-28 sm:flex-col-reverse "
-           id="Home">
+  <section
+    class="pt-16 flex items-center justify-evenly gap-28 sm:flex-col-reverse"
+    id="Home"
+  >
     <div class="mt-12 sm:mt-[18rem] sm:text-center">
-      <h1 class="text-white sm:text-[20px] heading-bold-h2 sm:leading-[28px] relative">
+      <h1
+        class="text-white sm:text-[20px] heading-bold-h2 sm:leading-[28px] relative @md:text-[20px] @md:leading-7"
+      >
         Take your best <br />
         Exciting Problem
       </h1>

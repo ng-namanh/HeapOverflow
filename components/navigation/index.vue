@@ -19,22 +19,24 @@
       </div>
     </div>
 
-    <ul class="sm:hidden flex items-center space-x-7 text-white -ml-52 sm:flex-col cursor-pointer">
+    <ul
+      class="sm:hidden flex items-center space-x-7 text-white -ml-52 sm:flex-col cursor-pointer"
+    >
       <li
         class="group"
         v-for="(link, i) in links"
         :key="links.id"
-        @click ="Indicator(link.id)"  
+        @click="Indicator(link.id)"
       >
         <a
-          :class="link.id === selectedIdex ? ['', 'visited:text-white'] :   null"
+          :class="link.id === selectedIdex ? ['', 'visited:text-white'] : null"
           :href="link.href"
           class="hover:text-white paragraphy-semibold-body-16px text-gray-500 transition-all duration-300"
         >
           {{ link.text }}
         </a>
         <div
-        v-show="link.id === selectedIdex"
+          v-show="link.id === selectedIdex"
           class="h-0.5 mt-0.5 bg-blue-700 group-hover:block w-[80%] transition-all duration-300"
         ></div>
       </li>
@@ -46,52 +48,55 @@
     >
       Login
     </button> -->
-    <ButtonTemplate
-      class="sm:hidden paragraphy-semibold-body-16px text-white hover:text-white border border-blue-700 py-2 px-7 hover:bg-blue-700 bg-transparent"
+    <a
+      href="http://app.heap-overflow.com/login?fbclid=IwAR3O5BPPe8CxVoaWdsCChByYmfoTrF_5n9hMgqELAAqrXWYnVAGo5oUkmM4"
+      target="_blank"
+      ><ButtonTemplate
+        class="sm:hidden paragraphy-semibold-body-16px text-white hover:text-white border border-blue-700 py-2 px-7 hover:bg-blue-700 bg-transparent"
+      >
+        <template #Login> Login </template>
+      </ButtonTemplate></a
     >
-      <template #Login> Login </template>
-    </ButtonTemplate>
 
     <navigation-mobile v-if="showMobileNav" />
   </header>
 </template>
 <script setup>
 import logo from "~/assets/image/logo.svg";
-let selectedIdex = ref(0)
+let selectedIdex = ref(0);
 const heap = ref("Heap Overflow");
 const links = [
   {
-    id : 1,
-    text : "Home",
-    href : "#Home"
+    id: 1,
+    text: "Home",
+    href: "#Home",
   },
   {
-    id : 2,
-    text : "Services",
-    href : "#Services"
+    id: 2,
+    text: "Services",
+    href: "#Services",
   },
   {
-    id : 3,
-    text : "Our Team",
-    href : "#OurTeam"
+    id: 3,
+    text: "Our Team",
+    href: "#OurTeam",
   },
   {
-    id : 4,
-    text : "About Us",
-    href : "#AboutUs"
+    id: 4,
+    text: "About Us",
+    href: "#AboutUs",
   },
-]
+];
 const showMobileNav = ref(false);
 function Indicator(id) {
-    this.selectedIdex = id
-} 
+  this.selectedIdex = id;
+}
 function showMobileMenu() {
   showMobileNav.value = !showMobileNav.value;
 }
 </script>
 <style src="@/assets/css/typography.css">
 .active {
-  @apply text-white bg-black
+  @apply text-white bg-black;
 }
-
 </style>
