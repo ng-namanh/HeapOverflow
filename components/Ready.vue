@@ -26,11 +26,13 @@
         >
           Get start
         </button> -->
-        <ButtonTemplate class=" sm:rounded-[16px] sm:p-3">
-          <template #Ready>
-              Get Started
-          </template>
-        </ButtonTemplate>
+        <a href="http://app.heap-overflow.com/dashboard" target="_blank">
+          <ButtonTemplate class=" sm:rounded-[16px] sm:p-3">
+            <template #Ready>
+                Get Started
+            </template>
+          </ButtonTemplate>
+        </a>
       </div>
     </div>
     <div class="flex justify-between sm:justify-around sm:relative">

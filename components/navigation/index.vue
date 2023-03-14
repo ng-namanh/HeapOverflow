@@ -49,7 +49,7 @@
       Login
     </button> -->
     <a
-      href="http://app.heap-overflow.com/login?fbclid=IwAR3O5BPPe8CxVoaWdsCChByYmfoTrF_5n9hMgqELAAqrXWYnVAGo5oUkmM4"
+      href="http://app.heap-overflow.com/login"
       target="_blank"
       ><ButtonTemplate
         class="sm:hidden paragraphy-semibold-body-16px text-white hover:text-white border border-blue-700 py-2 px-7 hover:bg-blue-700 bg-transparent"

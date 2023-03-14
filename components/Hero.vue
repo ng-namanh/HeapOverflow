@@ -24,9 +24,11 @@
         >
           Get Started
         </button> -->
-        <ButtonTemplate>
-          <template #Hero> Get Started </template>
-        </ButtonTemplate>
+        <a href="http://app.heap-overflow.com/dashboard" target="_blank">
+          <ButtonTemplate>
+            <template #Hero> Get Started </template>
+          </ButtonTemplate>
+        </a>
       </div>
     </div>
 

@@ -38,9 +38,11 @@
       </div>
     </div>
     <div class="flex items-center justify-center mt-[90px] sm:mt-9">
-      <ButtonTemplate>
-        <template #Providing> Try it for free </template>
-      </ButtonTemplate>
+        <a href="http://app.heap-overflow.com/dashboard" target="_blank">
+          <ButtonTemplate>
+            <template #Providing> Try it for free </template>
+          </ButtonTemplate>
+        </a>
     </div>
   </section>
 </template>
